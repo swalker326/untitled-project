@@ -1,0 +1,20 @@
+{
+  "name": "unitiled-project-root",
+  "packageManager": "pnpm@8.9.0",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "tunnel": "cloudflared tunnel --url http://localhost:3000"
+  },
+  "author": "trash-company",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "turbo": "^1.13.0",
+    "typescript": "^5.2.2"
+  }
+}
